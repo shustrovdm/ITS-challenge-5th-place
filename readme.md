@@ -1,6 +1,6 @@
-**Описание решения(5-е место в задаче ITS)**
+### **Описание решения(5-е место в задаче [ITS](https://cups.mail.ru/results/leadersofdigital?period=past&round_id=582))**
 
-1. Классификация
+#### 1. Классификация
 
 Модель: se_resnext50_32x4d pretrained imagenet  
 Оптимизатор: Adam  
@@ -13,7 +13,7 @@ Learning Rate: 0.0003
 Обученная модель доступна в _logs/full_se_resnext50_32x4d_stratified/checkpoints/best_full.pth_
 
 
-####2. Семантическая сегментация
+#### 2. Семантическая сегментация
 
 Модель: efficientnet-b7 encoder(imagenet pretrained) + Unet decoder  
 Оптимизатор: Adam  
@@ -29,7 +29,7 @@ TTA: hflip
 
 
 
-**Обучение моделей:**
+#### **Обучение моделей:**
 
 Перед выполнением поместить _train/_ в корень проекта.
 
